@@ -1,0 +1,28 @@
+.del{
+    background: firebrick;
+    color: green;
+    padding: 5 px 9 px;
+    border-radius: 50%;
+    float: right;
+   
+    
+
+}
+.todoo{
+    background: grey;
+    padding: 10px;
+
+}
+.is-completed{
+    text-decoration: line-through;
+    background-color: darkred;
+}
+
+.in{
+    flex:left;
+    
+}
+ 
+.element{
+    border-style: solid;
+}

@@ -1,0 +1,29 @@
+<form (ngSubmit)="sign()" [formGroup]="loginForm">
+  
+    <i class="fa fa-address-book" style="font-size:36px"></i>
+    <label for="">Email</label>
+    <input type="email" formControlName="email">
+  
+    <label for="">Password</label>
+    <input type="password" formControlName="password">
+    
+    <button [disabled]="loginForm.invalid">SignUp </button>
+    
+ 
+</form>
+<form (ngSubmit)="log()" [formGroup]="loginForm">
+  
+    <i class="fa fa-address-book" style="font-size:36px"></i>
+    <label for="">Email</label>
+    <input type="email" formControlName="email">
+  
+    <label for="">Password</label>
+    <input type="password" formControlName="password">
+    
+    <button [disabled]="loginForm.invalid">LogIn </button>
+    
+ 
+</form>    
+
+
+    

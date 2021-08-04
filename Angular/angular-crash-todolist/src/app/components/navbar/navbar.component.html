@@ -1,0 +1,10 @@
+<nav>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <a routerLink="/" class="active">Go back Home</a>
+    <a class="left" routerLink="/scheduler">Scheduler</a>
+    <a class="left" routerLink="/tic-tac-toe">Tic-Tac-Toe</a>
+    <a class="left" (click)="openDialog()">Login Menu</a>
+    <a class="left" routerLink="/snake">Snake</a>
+    <i class="icon" *ngIf="getter()==true" class="fa fa-address-book" style="font-size:28px"></i>
+
+</nav>
